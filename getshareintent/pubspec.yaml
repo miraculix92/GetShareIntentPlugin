@@ -1,0 +1,28 @@
+name: getshareintent
+description: A plugin to get share intents from the OS.
+version: 0.0.1
+author: Simon Wirths
+homepage: https://github.com/miraculix92/GetShareIntentPlugin
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  getshareintent_platforminterface: ^0.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.getshareintent
+        pluginClass: GetshareintentPlugin
+      ios:
+        pluginClass: GetshareintentPlugin
