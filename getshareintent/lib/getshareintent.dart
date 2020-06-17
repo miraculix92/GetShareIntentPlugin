@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:getshareintent_plaftorminterface/PlatformInterface.dart';
+import 'package:getshareintent_platforminterface/GetShareIntentPlatformInterface.dart';
 
 class ShareIntent {
 
@@ -14,7 +14,7 @@ class ShareIntent {
 
   static ShareIntent _singleton;
 
-  static PlatformInterface get _platform => PlatformInterface.instance;
+  static GetShareIntentPlatformInterface get _platform => GetShareIntentPlatformInterface.instance;
 
   Stream<String> get onShareIntent {
     return _platform.onShareIntentReceived;

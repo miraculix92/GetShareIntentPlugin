@@ -1,7 +1,6 @@
 name: getshareintent_platforminterface
 description: Platform interface for the getshareintent plugin, following the federated plugin structure.
 version: 0.0.1
-author: Simon Wirths
 homepage: https://github.com/miraculix92/GetShareIntentPlugin
 
 environment:
