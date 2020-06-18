@@ -1,4 +1,4 @@
-package com.receivelink.shareintent
+package com.example.getshareintent
 
 import android.content.Context
 import android.content.Intent
@@ -10,7 +10,7 @@ import io.flutter.plugin.common.PluginRegistry.Registrar
 
 
 /** ShareintentPlugin */
-class GetShareIntentPlugin:
+class GetshareintentPlugin :
         MethodChannel.MethodCallHandler,
         FlutterPlugin,
         EventChannel.StreamHandler,
@@ -23,7 +23,7 @@ class GetShareIntentPlugin:
   private var eventSink: EventChannel.EventSink? = null
 
   fun registerWith(registrar: Registrar) {
-    val plugin = GetShareIntentPlugin()
+    val plugin = GetshareintentPlugin()
     plugin.setupChannels(registrar.messenger(), registrar.context())
   }
 

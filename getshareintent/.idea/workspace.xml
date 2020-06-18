@@ -5,20 +5,16 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="da74e0dd-4e02-42a0-8deb-b236af26ddbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/example/getshareintent/GetShareIntentPlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/example/getshareintent/GetshareintentPlugin.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/example/getshareintent/GetShareIntentPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/example/getshareintent/GetshareintentPlugin.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/getshareintent.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/getshareintent.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../getshareintent_platforminterface/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../getshareintent_platforminterface/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/getshareintent_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/getshareintent_test.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +34,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="dart.analysis.tool.window.force.activate" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../share_intent" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="SvnConfiguration">
@@ -55,17 +56,45 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1769" y="610" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1592398946288">
+    <state x="1441" y="453" key="#PSD" timestamp="1592486135707">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1769" y="610" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1592398946288" />
-    <state x="1417" y="353" key="SettingsEditor" timestamp="1592398108972">
+    <state x="1441" y="453" key="#PSD/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1592486135707" />
+    <state x="1769" y="610" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1592485051514">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1417" y="353" key="SettingsEditor/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1592398108972" />
-    <state x="1580" y="336" key="run.anything.popup" timestamp="1592398829907">
+    <state x="1769" y="610" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1592485051514" />
+    <state x="1704" y="447" key="FileChooserDialogImpl" timestamp="1592489114123">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1580" y="336" key="run.anything.popup/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1592398829907" />
+    <state x="1704" y="447" key="FileChooserDialogImpl/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1592489114123" />
+    <state width="1224" height="404" key="GridCell.Tab.0.bottom" timestamp="1592489372013">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1224" height="404" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1592489372013" />
+    <state width="1224" height="404" key="GridCell.Tab.0.center" timestamp="1592489372013">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1224" height="404" key="GridCell.Tab.0.center/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1592489372013" />
+    <state width="1224" height="404" key="GridCell.Tab.0.left" timestamp="1592489372013">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1224" height="404" key="GridCell.Tab.0.left/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1592489372013" />
+    <state width="1224" height="404" key="GridCell.Tab.0.right" timestamp="1592489372013">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1224" height="404" key="GridCell.Tab.0.right/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1592489372013" />
+    <state x="1417" y="353" key="SettingsEditor" timestamp="1592485865339">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1417" y="353" key="SettingsEditor/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1592485865339" />
+    <state x="1598" y="547" key="com.intellij.ide.util.TipDialog" timestamp="1592486059380">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1598" y="547" key="com.intellij.ide.util.TipDialog/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1592486059380" />
+    <state x="1580" y="336" key="run.anything.popup" timestamp="1592485377671">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1580" y="336" key="run.anything.popup/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1592485377671" />
   </component>
 </project>

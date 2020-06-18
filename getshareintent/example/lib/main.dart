@@ -58,13 +58,14 @@ class _MyAppState extends State<MyAppHomePage> {
 
   // Platform messages are asynchronous, so we initialize in an async method.
   Future<void> initShareIntent() async {
-    String sharedText;
+//    String sharedText;
     // Platform messages may fail, so we use a try/catch PlatformException.
 //    try {
 //      sharedText = await _shareIntent.getSharedContent();
 //    } on PlatformException {
 //      sharedText = 'Failed to get platform version.';
 //    }
+  // TODO: reimplement platform exception catch
 
     await _shareIntent.getShareIntent().then((String value) {
       setState(() {

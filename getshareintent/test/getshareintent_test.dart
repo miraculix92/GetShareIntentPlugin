@@ -18,6 +18,8 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await Getshareintent.platformVersion, '42');
+    expect(await ShareIntent().getShareIntent(), '42');
   });
+
+  // TODO: fix test
 }
